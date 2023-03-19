@@ -46,13 +46,13 @@ function RegistrationForm() {
         <input type="text" name="NIC_No" onChange={handleInputChange} placeholder="Enter your NIC Number" className="NICbox"></input>
 
         <span className="email">Email</span>
-        <input type="text" name="Email" onChange={handleInputChange} placeholder="Enter your E-mail" className="emailbox"></input>
+        <input type="email" name="Email" onChange={handleInputChange} placeholder="Enter your E-mail" className="emailbox"></input>
 
         <span className="mobileno">Mobile No</span>
-        <input type="text" name="Mobile_No" onChange={handleInputChange} placeholder="Enter your Mobile Number" className="mobilenobox"></input>
+        <input type="number" name="Mobile_No" onChange={handleInputChange} placeholder="Enter your Mobile Number" className="mobilenobox"></input>
 
         <span className="password">Password</span>
-        <input type="text" name="Password" onChange={handleInputChange} placeholder="Enter a Password" className="passwordbox"></input>
+        <input type="password" name="Password" onChange={handleInputChange} placeholder="Enter a Password" className="passwordbox"></input>
 
         <input type="checkbox" className="payby_circle"></input>
         <span className="paybycredit_text">Pay by Credit Card, Visa / Master</span>

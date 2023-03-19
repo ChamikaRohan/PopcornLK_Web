@@ -26,6 +26,11 @@ export default function Navbar() {
           <Link to="/Signup">
           <button className="signup">Sign Up</button>
           </Link>
+
+          <Link to="/Login">
+          <button className="already_acount">Already have an account?</button>
+          </Link>
+          
           
         </div>
 </nav>

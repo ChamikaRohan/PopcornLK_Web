@@ -264,4 +264,22 @@ outline-color: transparent;
     right: 0;
    }
 
-   
+.Topic
+{
+  font-family: 'Raleway';
+  font-weight: 500;
+ color: black;
+}
+
+.body
+{
+  font-family: 'Lato';
+  font-weight: 400;
+}
+  
+.sub
+{
+  font-family: 'Raleway';
+  color: #000000
+}
+
