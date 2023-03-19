@@ -1,0 +1,185 @@
+.LoginHeroSec
+{
+    background-color: #000000;
+    height: 600px;
+    width: 100%;
+}
+
+.LoginBox
+{
+    position: absolute;
+    width: 1008px;
+    height: 57px;
+    left: 296px;
+    top: 147px;
+
+    background: #FF9F00;
+    border-radius: 7px;
+}
+
+.LoginBox_text
+{
+position: absolute;
+width: 128px;
+height: 120px;
+left: 736px;
+top: 116px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 120px;
+/* identical to box height, or 375% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.NIC_info
+{
+    position: absolute;
+    width: 139px;
+    height: 120px;
+    left: 310px;
+    top: 205px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120px;
+    /* identical to box height, or 667% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.NICinfo_box
+{
+    position: absolute;
+    width: 592px;
+    height: 42px;
+    left: 310px;
+    top: 290px;
+
+    background: #FFFFFF;
+    border-radius: 7px;
+}
+
+.password_text
+{
+    position: absolute;
+    width: 139px;
+    height: 120px;
+    left: 310px;
+    top: 305px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120px;
+    /* identical to box height, or 667% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.password_box
+{
+    position: absolute;
+    width: 592px;
+    height: 42px;
+    left: 310px;
+    top: 390px;
+
+    background: #FFFFFF;
+    border-radius: 7px;
+}
+
+
+
+.login_but
+{
+    position: absolute;
+    width: 169px;
+    height: 49px;
+    left: 722px;
+    top: 508px;
+
+    background: #FF9F00;
+    border-radius: 20px;
+    font-size: large;
+    font-family: 'Raleway';
+    font-weight:600;
+}
+
+.login_but:hover
+{
+    background-color: white;
+}
+
+.welcome_back
+{
+    position: absolute;
+    height: 200px;
+    width: auto;
+    left: 950px;
+    top: 280px;
+}
+
+.welcome_text
+{
+    position: absolute;
+    width: 139px;
+    height: 120px;
+    left: 1034px;
+    top: 303px;
+
+    font-family:"lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 12px;
+    /* identical to box height, or 667% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+    
+}
+
+.error_message {
+  position: absolute;
+  font-family:"Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 12px;
+  color: rgb(255, 0, 0);
+  left: 699px;
+  top: 620px;
+  animation: shake 0.67s linear infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(0, 0); }
+  10% { transform: translate(-5px, 0); }
+  20% { transform: translate(5px, 0); }
+  30% { transform: translate(-5px, 0); }
+  40% { transform: translate(5px, 0); }
+  50% { transform: translate(-5px, 0); }
+  60% { transform: translate(5px, 0); }
+  70% { transform: translate(-5px, 0); }
+  80% { transform: translate(5px, 0); }
+  90% { transform: translate(-5px, 0); }
+  100% { transform: translate(0, 0); }
+}

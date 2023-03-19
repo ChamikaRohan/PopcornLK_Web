@@ -1,0 +1,340 @@
+.SIgnUpHeroSec
+{
+    background-color: #000000;
+    height: 999px;
+    width: 100%;
+}
+
+.signUpBox
+{
+    position: absolute;
+    width: 1008px;
+    height: 57px;
+    left: 296px;
+    top: 147px;
+
+    background: #FF9F00;
+    border-radius: 7px;
+}
+
+.Signup_photo
+{
+    position: absolute;
+    height: 350px;
+    width: auto;
+    left: 860px;
+    top: 350px;
+}
+
+.signupboxtext
+{
+position: absolute;
+width: 128px;
+height: 120px;
+left: 736px;
+top: 116px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 120px;
+/* identical to box height, or 375% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.name
+{
+    position: absolute;
+    width: 139px;
+    height: 120px;
+    left: 310px;
+    top: 205px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120px;
+    /* identical to box height, or 667% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.namebox
+{
+    position: absolute;
+    width: 592px;
+    height: 42px;
+    left: 310px;
+    top: 290px;
+
+    background: #FFFFFF;
+    border-radius: 7px;
+}
+
+.NIC
+{
+    position: absolute;
+    width: 139px;
+    height: 120px;
+    left: 310px;
+    top: 305px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120px;
+    /* identical to box height, or 667% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.NICbox
+{
+    position: absolute;
+    width: 592px;
+    height: 42px;
+    left: 310px;
+    top: 390px;
+
+    background: #FFFFFF;
+    border-radius: 7px;
+}
+
+.email
+{
+    position: absolute;
+    width: 139px;
+    height: 120px;
+    left: 310px;
+    top: 405px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120px;
+    /* identical to box height, or 667% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.emailbox
+{
+    position: absolute;
+    width: 592px;
+    height: 42px;
+    left: 310px;
+    top: 490px;
+
+    background: #FFFFFF;
+    border-radius: 7px;
+}
+
+.mobileno
+{
+    position: absolute;
+    width: 139px;
+    height: 120px;
+    left: 310px;
+    top: 505px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120px;
+    /* identical to box height, or 667% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.mobilenobox
+{
+    position: absolute;
+    width: 592px;
+    height: 42px;
+    left: 310px;
+    top: 590px;
+
+    background: #FFFFFF;
+    border-radius: 7px;
+}
+
+.password
+{
+    position: absolute;
+    width: 139px;
+    height: 120px;
+    left: 310px;
+    top: 605px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120px;
+    /* identical to box height, or 667% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.passwordbox
+{
+    position: absolute;
+    width: 592px;
+    height: 42px;
+    left: 310px;
+    top: 690px;
+
+    background: #FFFFFF;
+    border-radius: 7px;
+}
+
+.paybycredit_text
+{
+    position: absolute;
+    width: 280px;
+    height: 120px;
+    left: 343px;
+    top: 710px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120px;
+    /* identical to box height, or 667% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.payby_circle
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 310px;
+    top: 760px;
+    border-radius: 19px;
+
+    background: white;
+}
+
+.visa_master
+{
+
+    position: absolute;
+    width: 174px;
+    height: 37px;
+    left: 734px;
+    top: 749px;
+}
+
+.agreed_cond
+{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 317px;
+    height: 120px;
+    left: 648px;
+    top: 799px;
+
+    color: white;
+}
+
+.agreed_button
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 618px;
+    top: 850px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.continue_but
+{
+    position: absolute;
+    width: 169px;
+    height: 49px;
+    left: 722px;
+    top: 908px;
+
+    background: #FF9F00;
+    border-radius: 20px;
+    font-size: large;
+    font-family: 'Raleway';
+    font-weight:600;
+}
+
+.continue_but:hover
+{
+    background-color: white;
+}
+
+.continue_but.clicked
+{
+    background-color: green;
+    color: white;
+}
+
+.continue
+{
+    position: absolute;
+    width: 169px;
+    height: 49px;
+    left: 722px;
+    top: 978px;
+
+    background:transparent;
+    border-radius: 20px;
+    border-color: white;
+    color: white;
+    font-size: large;
+    font-family: 'Raleway';
+    font-weight:600;
+}
+
+.continue:hover
+{
+    background-color:#FF9F00;
+}

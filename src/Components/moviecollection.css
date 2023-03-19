@@ -1,0 +1,267 @@
+.MovieCollection
+{
+    background-color: black;
+    height: 750px;
+    width: 100%;
+}
+
+.movies
+{
+    position: absolute;
+    width: 107px;
+    height: 120px;
+    left: 192px;
+    top: 620px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 120px;
+/* identical to box height, or 375% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: white;
+}
+
+.nowShow
+{
+  position: absolute;
+  left: 1020px;
+  top: 668px;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  
+  /* identical to box height, or 667% */
+  
+  background-color: transparent;
+  
+  color: #FF9F00;
+  border-color: transparent;
+  outline-color: transparent;
+}
+
+.comingSoon
+{
+position: absolute;
+left: 1193px;
+top: 668px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+
+/* identical to box height, or 667% */
+
+background-color: transparent;
+
+color: white;
+border-color: transparent;
+outline-color: transparent;
+}
+
+.solid {
+    border: none;
+    border-top: 2px solid black;
+    height: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+.cards
+{
+    margin: 20px;
+    position: absolute;
+    left: 27px;
+    top: 720px;
+}
+
+.text {
+    font-size: 20px;
+    font-family: 'Raleway';    
+    display: flex;
+    justify-content: center;
+}
+
+.boximg{
+    width: 260px; /* set the width of the image to fill the container */
+    height: auto;/* set the height to auto to maintain the aspect ratio */
+  }
+
+.buyticketbutton_gaadi
+{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 106px;
+    height: 32px;
+    left: 130px;
+    top: 1214px;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+
+}
+
+.buyticketbutton_varisu
+{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 106px;
+    height: 32px;
+    left: 420px;
+    top: 1214px;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+
+}
+
+.buyticketbutton_avatar
+{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 106px;
+    height: 32px;
+    left: 715px;
+    top: 1214px;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+
+}
+
+.buyticketbutton_gindari
+{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 106px;
+    height: 32px;
+    left: 1005px;
+    top: 1214px;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+
+}
+
+.buyticketbutton_gajaman
+{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 106px;
+    height: 32px;
+    left: 1300px;
+    top: 1214px;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card:hover .boximg {
+    transform: scale(1.1);
+  }
+  
+  .boximg {
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .text {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    transition: bottom 0.5s ease;
+  }
+  
+  .card:hover .card-body {
+    bottom: -50px;
+  }
+
+  .Signupnow {
+    display: inline-block;
+    border-radius: 11px;
+    background-color: transparent;
+    border-color: white;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 16px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: larger;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: absolute;
+    left: 720px;
+    top: 1180px;
+
+   }
+   
+   .Signupnow span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+   }
+   
+   .Signupnow span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+   }
+   
+   .Signupnow:hover span {
+    padding-right: 15px;
+    color: #FF9F00;
+   }
+   
+   .Signupnow:hover span:after {
+    opacity: 1;
+    right: 0;
+   }
+
+   

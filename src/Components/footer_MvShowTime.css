@@ -1,0 +1,217 @@
+
+
+.abouttitle2
+{
+    /* About Us */
+position: absolute;
+width: 140px;
+height: 120px;
+left: 730px;
+top: 982px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 120px;
+/* identical to box height, or 375% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.footerpart_MVC
+{
+    background-color: #FF9F00;
+    height: 650px;
+    width: 100%;
+}
+
+.logo2
+{
+    position: absolute;
+    width: 240px;
+    height: 63px;
+    left: 231px;
+    top: 1128px;
+
+}
+
+.leftdes2
+{
+    color: #000000;
+    position: absolute;
+    width: 238px;
+    height: 186px;
+    left: 239px;
+    top: 1221px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    /* or 172% */
+
+
+    color: #000000;
+
+}
+
+.botdes2
+{
+    position: absolute;
+width: 335px;
+height: 31px;
+left: 191px;
+top: 1449px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+/* identical to box height, or 172% */
+
+
+color: #000000;
+}
+
+.leftheadtop2
+{
+position: absolute;
+width: 183px;
+height: 35px;
+left: 1067px;
+top: 1121px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 120px;
+/* or 500% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.rightdes2
+{
+position: absolute;
+width: 242px;
+height: 58px;
+left: 1067px;
+top: 1156px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 29px;
+/* or 161% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.rightbottopic2
+{
+position: absolute;
+width: 183px;
+height: 35px;
+left: 1067px;
+top: 1244px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 120px;
+/* or 500% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.rightsup2
+{
+    position: absolute;
+width: 162px;
+height: 87px;
+left: 1067px;
+top: 1279px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 29px;
+/* or 161% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.MktAdtTopic2{
+position: absolute;
+width: 384px;
+height: 35px;
+left: 1067px;
+top: 1386px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 120px;
+/* or 500% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.rightbot2{
+    position: absolute;
+width: 138px;
+height: 29px;
+left: 1067px;
+top: 1421px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 29px;
+/* identical to box height, or 161% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.fotline2
+{
+position: absolute;
+width: 1600px;
+height: 0px;
+left: 0px;
+top: 1511px;
+
+background: #000000;
+border: 1px solid #000000;
+}

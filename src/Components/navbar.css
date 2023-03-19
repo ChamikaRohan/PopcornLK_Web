@@ -1,0 +1,80 @@
+.navbar
+{
+    font-family: 'Raleway';
+    color: white;
+    font-weight: 500;
+    background-color:black ;
+}
+
+.logo_head
+{   
+    width: 160px;
+    height: auto;
+    top:9px;
+}
+
+  .navcenter span {
+    margin: 0 30px; /* add horizontal margin to each span */
+  }
+
+  .H
+  {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    border-color: transparent;
+  }
+
+  .M
+  {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    border-color: transparent;
+  }
+
+  .T
+  {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    border-color: transparent;
+  }
+
+  .H:hover
+  {
+    color: #FF9F00;
+    font-size: large;
+  }
+
+  .M:hover
+  {
+    color: #FF9F00;
+    font-size: large;
+  }
+
+  .T:hover
+  {
+    color: #FF9F00;
+    font-size: large;
+  }
+
+  .signup
+  {
+    background-color: #FF9F00;
+    border-radius: 6px;
+    height: 35px;
+    width: 90px;
+    font-family: 'Raleway';
+    color: black;
+    font-weight: 500;
+  }
+
+  .signup:hover
+  {
+    background-color: white;
+  }
+  

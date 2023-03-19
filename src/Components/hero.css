@@ -1,0 +1,117 @@
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  background: rgba(0,0,0,0.5);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+.carousel-control-prev-icon {
+background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8"%3E%3Cpath d="M5.25 0l-.28.31-3 3-.22.28v.19l.22.28 3 3 .28.31.22-.31v-.19l-.22-.28-2.78-2.81 2.78-2.81v-.19z"/%3E%3C/svg%3E');
+}
+
+.carousel-control-next-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8"%3E%3Cpath d="M2.75 0l-.28.31-.22.28v.19l.22.28 3 3 .28.31.22-.31v-.19l-.22-.28-2.78-2.81 2.78-2.81v-.19z"/%3E%3C/svg%3E');
+}
+
+#carouselExampleRide {
+  height: 500px; /* Set a fixed height for the carousel */
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover; /* This will make the images fit inside their container without stretching or squishing them */
+  margin: 0 auto; /* Center the images horizontally */
+  overflow: hidden;
+}
+
+.carousel-inner {
+  overflow: hidden;
+}
+
+.title
+{
+  position: absolute;
+  width: 793px;
+  height: 120px;
+  left: 182px;
+  top: 380px;
+  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 57px;
+  line-height: 120px;
+  /* identical to box height, or 211% */
+  
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+
+.buyTicket
+{
+  /* Rectangle 2 */
+
+  position: absolute;
+  width: 166px;
+  height: 40px;
+  left: 192px;
+  top: 419px;
+
+  background: #FF9F00;
+  border-radius: 20px;
+}
+
+.buyTicketButton
+{
+  /* Buy Tickets */
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.moreInfo
+{
+  /* Rectangle 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 117px;
+height: 40px;
+left: 380px;
+top: 420px;
+background-color: transparent;
+border: 1px solid #FFFFFF;
+border-radius: 20px;
+}
+
+.moreInfoButton
+{
+  /* More Info */
+
+
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1;
+  text-align: center;
+  color: white;
+}
+
